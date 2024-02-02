@@ -116,14 +116,13 @@ select {
   font-family: 'Montserrat', sans-serif;
 }
 
-.header__content-inner {
+.header__container-inner {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-    min-height: calc(100vh - 93px);
+  align-items: center; 
+  justify-content: space-between; 
+  min-height: calc(100vh - 93px);
 }
-
 
 .header__title {
   font-weight: 500;
@@ -132,7 +131,7 @@ select {
   color: #fff;
   margin-top: auto;
   margin-bottom: 19px;
-  padding-top: 130px;
+  padding-top: 150px;
 }
 
 .header_subtitel {
